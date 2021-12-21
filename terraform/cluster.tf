@@ -1,7 +1,7 @@
 resource "digitalocean_kubernetes_cluster" "kubeflow" {
   name    = "personal-kubeflow"
   region  = "nyc1"
-  version = "1.21.5-do.0"
+  version = "1.19.15-do.0"
 
   node_pool {
     name       = "default"
